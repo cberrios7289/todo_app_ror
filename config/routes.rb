@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   get 'list/index'
-
+  get 'list/1' => 'list#first'
+  get 'list/2' => 'list#second'
+  get 'list/3' => 'list#third'
   root 'application#hello'
-  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

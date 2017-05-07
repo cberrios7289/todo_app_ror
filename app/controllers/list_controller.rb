@@ -7,6 +7,8 @@ class ListController < ApplicationController
   def show
     @id = params['id']
     
+    @list = List.find_by_id(params[‘id’])
+    
     if params['id'] == "1"
       #todo list one
       @list_name = "Homework"

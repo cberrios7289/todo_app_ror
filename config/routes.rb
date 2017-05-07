@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'list/homework' => 'list#homework'
   get 'list/chores' => 'list#chores'
   get 'list/cooking' => 'list#cooking'
+  get 'list/:id' => 'list#show'
   root 'application#hello'
 
   # The priority is based upon order of creation: first created -> highest priority.

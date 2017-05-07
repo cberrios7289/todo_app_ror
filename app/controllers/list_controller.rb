@@ -9,4 +9,7 @@ class ListController < ApplicationController
   end
   def cooking
   end
+  def show
+    @id = params['id']
+  end
 end

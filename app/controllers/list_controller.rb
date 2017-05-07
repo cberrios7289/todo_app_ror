@@ -34,14 +34,4 @@ class ListController < ApplicationController
       @third_todo_pomodoro_estimate = "2 pomodoros"
     end
   end
-  
-  def first
-  end
-  
-  def second
-  end
-  
-  def cooking
-  end
-
 end

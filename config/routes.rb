@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
   get 'list/index'
-  get 'list/1' => 'list#first'
-  get 'list/2' => 'list#second'
-  get 'list/cooking' => 'list#cooking'
   get 'list/:id' => 'list#show'
 
 

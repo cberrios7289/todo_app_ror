@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'list/index'
-  get 'list/homework' => 'list#homework'
-  get 'list/chores' => 'list#chores'
+  get 'list/1' => 'list#first'
+  get 'list/2' => 'list#second'
   get 'list/cooking' => 'list#cooking'
   get 'list/:id' => 'list#show'
   root 'application#hello'
